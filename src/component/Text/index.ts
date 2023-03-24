@@ -1,0 +1,1 @@
+export { ThemeText } from './ThemeText'
