@@ -11,6 +11,6 @@ export const useHomeStyles = createStyles((_, isDark: boolean) => ({
   },
   list: {
     textAlign: 'left',
-    marginLeft: '10.5rem',
+    marginLeft: '30.5rem',
   },
 }))

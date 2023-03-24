@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom'
 import { ThemeText } from '../Text'
 import { useHomeStyles } from './Home.styles'
 
-const pages = ['array', 'option', 'String']
+const pages = ['array', 'option', 'string', 'result']
 
 export const Home: FC = () => {
   const navigate = useNavigate()

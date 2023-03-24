@@ -9,6 +9,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { Array } from './component/Array'
 import { Home } from './component/Home'
 import { Option } from './component/Option'
+import { Result } from './component/Result'
 import { Layout } from './component/Shell'
 import { String } from './component/String'
 
@@ -39,6 +40,7 @@ export const App = () => {
               <Route path="/array" element={<Array />} />
               <Route path="/option" element={<Option />} />
               <Route path="/string" element={<String />} />
+              <Route path="/result" element={<Result />} />
             </Route>
           </Routes>
         </BrowserRouter>

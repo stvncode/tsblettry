@@ -9,7 +9,7 @@ export const useLayoutStyles = createStyles({
     marginLeft: 'auto',
     marginRight: 'auto',
     marginTop: '5rem',
-    maxWidth: '30rem',
+    maxWidth: '70rem',
     textAlign: 'center',
   },
 })
